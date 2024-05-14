@@ -30,8 +30,9 @@ I chose `llama3` as the LLM and `nomic-embed-text` as the embedding model.
 
 ```bash
 docker exec -it ollama bash
-docker pull llama3
-docker pull nomic-embed-text
+# Inside the container
+ollama pull llama3
+ollama pull nomic-embed-text
 ```
 
 ## Create a Slack app
