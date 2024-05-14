@@ -1,0 +1,5 @@
+ollama==0.1.8
+scrapegraphai==0.10.1
+playwright==1.43.0
+chainlit==1.1.101
+slack-bolt==1.18.1
